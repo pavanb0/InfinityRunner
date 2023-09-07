@@ -1,0 +1,134 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Obstacle_Start_mBD75DD8098F7DB52EBEC8DED00C52ADF05E62731 (void);
+extern void Obstacle_Update_mF5AA4F52A2372F7FBFF7ED97999E26E984AA2AE4 (void);
+extern void Obstacle_OnBecameInvisible_mB3EC8C3A8B75A22CB47161050C8A92655DD1687B (void);
+extern void Obstacle__ctor_mF400BC13FBAC15398D0EE2E05DF96F481257945D (void);
+extern void ObstacleBehaviuor_Start_m054A0371846908C8B5714E429AA70C6946C87131 (void);
+extern void ObstacleBehaviuor_Update_m97612E0E25804E95073C447088A4FADF9FB5C62C (void);
+extern void ObstacleBehaviuor_OnBecameInvisible_mD8328D961B5C90294BB0DCFC728082C410ECB2D0 (void);
+extern void ObstacleBehaviuor__ctor_m724B016BA8822430A4B87B62E464E0E31747472F (void);
+extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
+extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (void);
+extern void PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989 (void);
+extern void PlayerController_OnCollisionExit_m4DF3784586ED7D4C4E7E053117AE5406FD71A559 (void);
+extern void PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1 (void);
+extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
+extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
+extern void GameManager_SpawnObstacle_mBE523B5A096ADA6AED2A76B03ACF0DC7C35EF25A (void);
+extern void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (void);
+extern void GameManager_ScoreUp_m0F05B0D8F27C3810C3A6D62FFCF3B81EE2238DC7 (void);
+extern void GameManager_GameStart_m13D7CF637F648EE27334A03FF9B2132DA21A643B (void);
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+extern void U3CSpawnObstacleU3Ed__7__ctor_m975B7BA7CB7B97D4412255B9E5A59CDCC25D8767 (void);
+extern void U3CSpawnObstacleU3Ed__7_System_IDisposable_Dispose_m19261BB454559F6D0FF82B96DD58D8D3B6785926 (void);
+extern void U3CSpawnObstacleU3Ed__7_MoveNext_m71488658F83CD3003BDADC99ADDB8384D38C844E (void);
+extern void U3CSpawnObstacleU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1DBC8FCB18C3A86953ABF8D2EC02ACC24C764202 (void);
+extern void U3CSpawnObstacleU3Ed__7_System_Collections_IEnumerator_Reset_m23E50E4CFB97D9DDDBB26B2C0220D77F03DAC48B (void);
+extern void U3CSpawnObstacleU3Ed__7_System_Collections_IEnumerator_get_Current_m4C56CF00347BEF4690ED31767207DA8340A53933 (void);
+extern void PlayerBehaviourScript_Start_m7D40476534DCF2D1DD929327B7391D46F5A7055E (void);
+extern void PlayerBehaviourScript_Update_m006BF9864C5B499F493EA0701E0D5DD2534AD00D (void);
+extern void PlayerBehaviourScript__ctor_m4595521B1390C1EA121C980C48CCA91AB37A8AF8 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[31] = 
+{
+	Obstacle_Start_mBD75DD8098F7DB52EBEC8DED00C52ADF05E62731,
+	Obstacle_Update_mF5AA4F52A2372F7FBFF7ED97999E26E984AA2AE4,
+	Obstacle_OnBecameInvisible_mB3EC8C3A8B75A22CB47161050C8A92655DD1687B,
+	Obstacle__ctor_mF400BC13FBAC15398D0EE2E05DF96F481257945D,
+	ObstacleBehaviuor_Start_m054A0371846908C8B5714E429AA70C6946C87131,
+	ObstacleBehaviuor_Update_m97612E0E25804E95073C447088A4FADF9FB5C62C,
+	ObstacleBehaviuor_OnBecameInvisible_mD8328D961B5C90294BB0DCFC728082C410ECB2D0,
+	ObstacleBehaviuor__ctor_m724B016BA8822430A4B87B62E464E0E31747472F,
+	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
+	PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33,
+	PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989,
+	PlayerController_OnCollisionExit_m4DF3784586ED7D4C4E7E053117AE5406FD71A559,
+	PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1,
+	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
+	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
+	GameManager_SpawnObstacle_mBE523B5A096ADA6AED2A76B03ACF0DC7C35EF25A,
+	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
+	GameManager_ScoreUp_m0F05B0D8F27C3810C3A6D62FFCF3B81EE2238DC7,
+	GameManager_GameStart_m13D7CF637F648EE27334A03FF9B2132DA21A643B,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	U3CSpawnObstacleU3Ed__7__ctor_m975B7BA7CB7B97D4412255B9E5A59CDCC25D8767,
+	U3CSpawnObstacleU3Ed__7_System_IDisposable_Dispose_m19261BB454559F6D0FF82B96DD58D8D3B6785926,
+	U3CSpawnObstacleU3Ed__7_MoveNext_m71488658F83CD3003BDADC99ADDB8384D38C844E,
+	U3CSpawnObstacleU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1DBC8FCB18C3A86953ABF8D2EC02ACC24C764202,
+	U3CSpawnObstacleU3Ed__7_System_Collections_IEnumerator_Reset_m23E50E4CFB97D9DDDBB26B2C0220D77F03DAC48B,
+	U3CSpawnObstacleU3Ed__7_System_Collections_IEnumerator_get_Current_m4C56CF00347BEF4690ED31767207DA8340A53933,
+	PlayerBehaviourScript_Start_m7D40476534DCF2D1DD929327B7391D46F5A7055E,
+	PlayerBehaviourScript_Update_m006BF9864C5B499F493EA0701E0D5DD2534AD00D,
+	PlayerBehaviourScript__ctor_m4595521B1390C1EA121C980C48CCA91AB37A8AF8,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[31] = 
+{
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	3567,
+	3567,
+	3567,
+	4430,
+	4430,
+	4332,
+	4430,
+	4430,
+	4430,
+	4430,
+	3542,
+	4430,
+	4257,
+	4332,
+	4430,
+	4332,
+	4430,
+	4430,
+	4430,
+	6374,
+	4430,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	31,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

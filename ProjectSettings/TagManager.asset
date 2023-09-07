@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Ground 1
-  - Ground 2
+  - Obstacle
   layers:
   - Default
   - TransparentFX
